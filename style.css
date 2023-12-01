@@ -16,7 +16,7 @@
   }
   
   body {
-    background-color: #f9d60e;
+    background-color: #A3CAE9;
     padding: 20px;
     font-family: Arial;
   }
@@ -38,10 +38,11 @@
   }
   
   .content {
-    background-color: #272b30;
+    background-color: #6e9fc1;
     margin: 20px;
     padding: 10px;
     color: white;
+    border-radius: 25px;
   }
 
 
@@ -49,19 +50,24 @@
     border: none;
     outline: none;
     padding: 12px 16px;
-    background-color: white;
     cursor: pointer;
     margin-right: 20px;
+    background-color: #6e9fc1;
+    color: white;
+  }
+
+  .btn:hover {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 2px 50px 0 rgba(0,0,0,0.19);
   }
   
   nav {
-    background-color: #272b30;
+    background-color: #6e9fc1;
     padding: 10px;
     border-radius: 10px;
   }
   
   footer {
-    background-color: #272b30;
+    background-color: #6e9fc1;
     padding: 20px;
     color: white;
     text-align: center;
@@ -69,4 +75,20 @@
     border-radius: 10px;
   
   }
-  
+
+  .projectTitle {
+    text-align: center;
+  }
+
+  .contactsTitle {
+    color: #395a7f;
+    text-align: center;
+  }
+
+ .contact-infos {
+   color: white;
+ }
+
+  .contact-logos {
+    width: 13px;
+  }
